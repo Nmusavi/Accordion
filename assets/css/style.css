@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.acc-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label:hover {
+    background-color: rgb(240, 168, 240);
+}
+
+label {
+    height: 6vh;
+    width: 100%;
+    background-color: violet;
+    padding: 10px;
+}
+
+#acc1,
+#acc2,
+#acc3,
+p {
+    display: none;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    padding: 15px;
+    padding-top: 5px;
+}
+
+#acc1:checked~p:nth-of-type(1) {
+    display: block;
+}
+
+#acc2:checked~p:nth-of-type(2) {
+    display: block;
+}
+
+#acc3:checked~p:nth-of-type(3) {
+    display: block;
+}
