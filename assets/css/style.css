@@ -12,6 +12,7 @@
 
 label:hover {
     background-color: rgb(240, 168, 240);
+    cursor: pointer;
 }
 
 label {
